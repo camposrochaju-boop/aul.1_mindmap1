@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Ontology Engineering Foundations","children":[{"content":"Definitions &amp; Context","children":[{"content":"Philosophical ontology (what exists)","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"Applied ontologies as artifacts","children":[{"content":"Ontology engineering emergence <code>1998</code>","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"Relation to epistemology and logic","children":[],"payload":{"tag":"li","lines":"5,6"}}],"payload":{"tag":"li","lines":"3,6"}},{"content":"Multiple conceptual views (conceptualization, linguistic, mathematical)","children":[],"payload":{"tag":"li","lines":"6,7"}}],"payload":{"tag":"li","lines":"1,7"}},{"content":"Modeling Judgement","children":[{"content":"Class vs Individual distinction","children":[{"content":"Localization in time/space -&gt; individual","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"Classes have subclasses; individuals do not","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"8,11"}},{"content":"Rigidity and role changes (e.g., person becomes teacher)","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"Examples: glucose vs D/L-glucose; quantity instances","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"7,13"}},{"content":"Taxonomies &amp; Inheritance","children":[{"content":"Hierarchy: classes, subclasses, membership","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"Transitivity of subclass relations","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Class disjointness not assumed","children":[{"content":"Geopolitical overlaps (Istanbul, Cayenne)","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"16,18"}},{"content":"Single-hierarchy design recommended; allow inferred multiple inheritance","children":[],"payload":{"tag":"li","lines":"18,19"}}],"payload":{"tag":"li","lines":"13,19"}},{"content":"Labeling &amp; Lexical Ambiguity","children":[{"content":"Polysemy across domains (e.g., &apos;heart&apos;)","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Acronyms and cryptic labels cause errors (GWB example)","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Need for clear annotations and modifiers","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Terminology differences: entity/concept/universal/term","children":[],"payload":{"tag":"li","lines":"23,24"}}],"payload":{"tag":"li","lines":"19,24"}},{"content":"Schemas vs Ontologies","children":[{"content":"Schemas optimized for data entry; may be closed","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Classification systems (ICD) are monohierarchical and require detour rules","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Avoid ontologizing every useful classification","children":[],"payload":{"tag":"li","lines":"27,28"}}],"payload":{"tag":"li","lines":"24,28"}},{"content":"Relations, Processes &amp; Realizables","children":[{"content":"Distinct categories: objects, processes, qualities, realizables","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"Language conflates process vs outcome vs report (e.g., biopsy)","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"Information entities vs domain entities (symbols can denote both)","children":[],"payload":{"tag":"li","lines":"31,32"}}],"payload":{"tag":"li","lines":"28,32"}},{"content":"Interoperability &amp; Community Tensions","children":[{"content":"Different community assumptions cause misalignment","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"BFO-style vs medical terminologies (SNOMED) disagreements","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"Labeling and taxonomic design drive mapping challenges","children":[],"payload":{"tag":"li","lines":"35,36"}}],"payload":{"tag":"li","lines":"32,36"}},{"content":"Open Questions &amp; Guidance","children":[{"content":"No single ontological truth; choices are contextual","children":[],"payload":{"tag":"li","lines":"37,38"}},{"content":"Practical guidance: upper-level principles, careful labeling, single-hierarchy design","children":[],"payload":{"tag":"li","lines":"38,39"}},{"content":"Call for community engagement on cultural/practical issues","children":[],"payload":{"tag":"li","lines":"39,40"}}],"payload":{"tag":"li","lines":"36,40"}}],"payload":{"tag":"li","lines":"0,40"}},null)</script>
+</body>
+</html>
